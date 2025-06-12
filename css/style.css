@@ -81,10 +81,16 @@ h1 span {
 .details-card {
   max-width: 600px;
   margin: 20px auto;
-  padding: 12px;
+  padding: 16px;
   border: #cacaca 1px solid;
   border-radius: 12px;
   font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .details-card {
+    padding: 9px;
+  }
 }
 
 .details-row {
@@ -134,7 +140,7 @@ h1 span {
 .change-text {
   text-align: center;
   font-family: "Poppins", sans-serif;
-  font-size: 18px; 
+  font-size: 18px;
   line-height: 1.4;
   margin: 16px auto;
   max-width: 90%;
