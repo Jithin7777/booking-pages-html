@@ -1,0 +1,257 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+img.logo {
+  display: block;
+  margin: 0 auto 10px;
+  width: 104px;
+  height: 104px;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 50.52px;
+  line-height: 1;
+  text-align: center;
+  margin: 20px 0;
+}
+
+h1 span {
+  display: block;
+  margin-top: 10px;
+}
+
+.reservation-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20.56px;
+  line-height: 1;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 20px 0;
+}
+@media (max-width: 600px) {
+  .reservation-text {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+}
+
+.hero-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.booking-details {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.details-card {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 16px;
+  border: #cacaca 1px solid;
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+.details-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.details-item {
+  flex: 1;
+  min-width: 45%;
+  text-align: center;
+}
+
+.label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 4px;
+  font-size: 18px;
+}
+
+.value {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .label,
+  .value {
+    font-size: 14px;
+  }
+}
+
+.map-image {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 375px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.change-text {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px; 
+  line-height: 1.4;
+  margin: 16px auto;
+  max-width: 90%;
+  padding: 0 12px;
+  color: #333;
+}
+
+.highlight {
+  color: red;
+}
+
+@media (max-width: 600px) {
+  .change-text {
+    font-size: 13px;
+  }
+}
+.availability-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  line-height: 150%;
+}
+@media (max-width: 600px) {
+  .availability-text {
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.special-request-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+@media (max-width: 600px) {
+  .special-request-heading {
+    font-size: 16px;
+  }
+}
+.special-request-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0;
+  text-align: center;
+  vertical-align: middle;
+  margin: 16px 0;
+}
+
+@media (max-width: 600px) {
+  .special-request-text {
+    font-size: 16px;
+  }
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 60px;
+  color: #888;
+}
+.footerlogo {
+  width: 69px;
+  height: 37px;
+  display: block;
+  margin: 0 auto 8px;
+  margin-top: 10px;
+}
+nav {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  background: #f9f9f9;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .details {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
