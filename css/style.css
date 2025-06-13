@@ -143,8 +143,7 @@ h1 span {
   font-size: 18px;
   line-height: 1.4;
   margin: 16px auto;
-  max-width: 90%;
-  padding: 0 12px;
+  max-width: 100%;
   color: #333;
 }
 
